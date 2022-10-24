@@ -10,6 +10,9 @@ void rev_string(char *s)
 	int i, j;
 	char temp;
 
+	/* Get the length */
+	while (s[len])
+		len++;
 	/* Swap each character */
 	i = len;
 	while (--i >= len / 2)
@@ -19,5 +22,5 @@ void rev_string(char *s)
 		s[j] = s[i];
 		s[i] = temp;
 
-}
+      }
 }
