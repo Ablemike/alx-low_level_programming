@@ -13,6 +13,7 @@ void rev_string(char *s)
 	/* Get the length */
 	while (s[len])
 		len++;
+
 	/* Swap each character */
 	i = len;
 	while (--i >= len / 2)
